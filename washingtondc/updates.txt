@@ -1,0 +1,43 @@
+1. Media United - Provider & Slots
+
+
+2. Media United - Slot sales
+3. Media United - Menus
+
+4. Database Work
+
+
+
+
+
+6. Sales Payment system
+
+
+
+Data Uploads & Mess content send out
+1. Data Uploads for Email system
+2. Data Retrival/Uploads for SMS System
+3. Configuration of Text Local
+4. Email System Amendments
+£100
+
+
+The Media United
+1. Provider & Slot Creations 
+2. Admin New slots feature 
+3. Client Slot Sales 
+4. User Guides 
+
+£225
+
+
+--------------------------
+
+
+------------------------------------
+Admin Users - Can create users
+Users - Can create Campaigns
+Agents - Can join Campaigns
+Campaigns
+Sales Transactions - (campaignID, AgentID, Amount, Company, Other Details) calculates payment for agents.
+ 

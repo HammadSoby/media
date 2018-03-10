@@ -1,0 +1,384 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body{
+   
+   
+    background-image: url("http://localhost/liproProject/images/bg.jpg");
+    background-color: rgba(22, 16, 26, 1);
+    transition:1s;
+}
+.form1 {
+
+    max-width: 800px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+a{
+    color:#006999;
+}
+.form1 h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+    font-family: "open sans";
+
+    
+}
+.form1 h1>span {
+    display: block;
+    font-size: 11px;
+    color:#888;
+    font-family: "open sans";
+}
+.form1 label {
+    display: block;
+    margin: 0px;
+    font-family: "open sans";
+}
+.form1 label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.form1 input[type="text"], .basic-grey input[type="email"],.basic-grey input[type="password"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+#password,#tnumber{
+       border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+#logmem{
+    font-family: "open sans";
+    margin-left: 170px;
+    color:#C9312D;
+    color:#F96E5B;
+}
+input[type="text"]:focus{
+       border-bottom: 2px solid #ccc;
+}
+input[type="file"]:focus{
+    outline: none;
+}
+
+.form1 textarea{
+    padding: 5px 3px 3px 5px;
+}
+.form1 select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 50%;
+    height: 35px;
+    line-height: 25px;
+}
+.form1 textarea{
+    height:100px;
+}
+.form1 .button {
+    background: #E27575;
+    background: #CB0001;
+    background-color:#C9302C;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    width: 100px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    font-family: Georgia, "Times New Roman", Times, serif;;
+    font-family: "open sans";
+    background: #F96E5B;
+}
+.form1 .button:hover {
+    opacity: 0.6;
+    transition:1s;
+    -moz-transition:0.6s;
+    cursor: pointer;
+}
+textarea{
+    resize:none;
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+    font-family: arial,sans-serif;
+    font-family: "open sans";
+}
+textarea:focus{
+    outline:none;
+
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#up{
+    color:white;
+    padding-top:20px;
+    height: 20px;
+    background-color:#C9302C;
+
+border-color: #d43f3a;
+display: inline-block;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+font-weight: inherit;
+margin-left: 20px;
+
+}
+#up:hover{
+    background:#d9534f; 
+}
+.button{
+    background-color:#C9302C;
+}
+.form2 {
+    
+    max-width: 300px;
+    background: #F7F7F7;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.form2 h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -10px 10px -10px;
+    margin-left: -40px;
+    color: #888;
+    text-align: center;
+}
+.form2 h1>span {
+    display: block;
+    font-size: 11px;
+}
+.form2 label {
+    display: block;
+    margin: 0px;
+}
+.form2 label>span {
+    float: left;
+    width: 150px;
+    padding-right: 10px;
+    color: #888;
+}
+.form2 input[type="text"], .form2 input[type="email"],.form2 input[type="password"], .form2 textarea, .form2 select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 250px;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.form2 textarea{
+    padding: 5px 3px 3px 5px;
+}
+.form2 select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right);
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 50%;
+    height: 35px;
+    line-height: 25px;
+}
+.form2 textarea{
+    height:100px;
+}
+.form2 .button {
+    background: #E27575;
+    background: #CB0001;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+.form2 .button:hover {
+    opacity: 0.6;
+    transition:1s;
+    -moz-transition:0.6s;
+    cursor: pointer;
+}
+textarea{
+    resize:none;
+}
+#content{
+  margin-left: 20%;
+  margin-top: 100px;
+  width: 60%;
+ border-radius: 10px;
+  border:10px solid;
+  background-color:#C4B098;
+  border-color: rgba(215, 40, 30, 0.4);
+  padding-bottom: 0px;
+  height: 796px;
+
+}
+#form1{
+border-radius: 10px;
+}
+#form2{
+    position: absolute;
+    right: 50px;
+    top:220px;
+}
+#barli{
+    float: left;
+    margin-right: 6px;
+    background: #C90300;
+    color:white;
+    font-family: Arial,sans-serif;
+    font-family: "open sans";
+    font-size:15px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#barli:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition:1s;
+    
+}
+#barul{
+    background: red;
+    padding:0px;
+}
+#errors{
+    margin-left: 100px;
+    line-height: 54px;
+}
+#erroring{
+    font:12px Georgia, "Times New Roman", Times, serif;
+    color:#aa0000;
+    font-weight: bold;
+    
+  
+
+}
+
+#error_tab{
+    border-collapse: separate;
+    border-spacing: 1px 4px;
+    border:none;
+}
+
+#error_td{
+    border:none;
+   
+    padding-top:4px;
+    padding-bottom: 4px;
+    width: 400px;
+    text-align:center;
+
+}
+#barin{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+     background: #f96e5b;
+     
+    color:white;
+    font-family: OpenSans-light;
+    font-family: "open sans";
+    
+
+}
